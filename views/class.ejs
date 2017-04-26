@@ -1,0 +1,24 @@
+<a href="/"></a>
+<h1>Class Details</h1>
+<% if(eachClass) { %>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Class Length</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><%= eachClass.name %></td>
+            <td><%= eachClass.description %></td>
+            <td>$<%= eachClass.price %></td>
+            <td><%= eachClass.course_length %></td>
+        </tr>
+        <% } else { %>
+            <h1>ERROR!! ERROR!! Class Not Found</h1>
+        <% } %>
+    </tbody>
+</table>

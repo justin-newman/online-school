@@ -1,0 +1,85 @@
+[{
+        "id": "1",
+        "name": "FUNdamentals of JavaScript",
+        "description": "learn JS fundamentals",
+        "price": "45",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "2",
+        "name": "FUNdamentals of C#",
+        "description": "learn C# fundamentals",
+        "price": "45",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "3",
+        "name": "FUNdamentals of HTML",
+        "description": "learn HTML fundamentals",
+        "price": "45",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "4",
+        "name": "FUNdamentals of Murder",
+        "description": "learn murder fundamentals",
+        "price": "45",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "5",
+        "name": "Advanced JavaScript",
+        "description": "learn JS for reals",
+        "price": "90",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "6",
+        "name": "Advanced C#",
+        "description": "learn C# for reals",
+        "price": "90",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "7",
+        "name": "Advanced HTML",
+        "description": "learn HTML for reals",
+        "price": "90",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "8",
+        "name": "Advanced Murder",
+        "description": "actually kill someone or you fail",
+        "price": "0",
+        "course_length": "As long as it takes"
+    },
+    {
+        "id": "9",
+        "name": "kittens 101",
+        "description": "Awwww",
+        "price": "1000",
+        "course_length": "3 semesters"
+    },
+    {
+        "id": "10",
+        "name": "Kittens 5000",
+        "description": "RoBoT KiTtEnS --Pew --Pew",
+        "price": "5000",
+        "course_length": "Until they take over"
+    },
+    {
+        "id": "11",
+        "name": "Math",
+        "description": "learn maths",
+        "price": "45",
+        "course_length": "1 semester"
+    },
+    {
+        "id": "12",
+        "name": "Gym",
+        "description": "Beware all nerds who enter here",
+        "price": "45",
+        "course_length": "1 semester"
+    }
+]

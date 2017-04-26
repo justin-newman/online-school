@@ -1,0 +1,20 @@
+<a href="/"></a>
+<h1>Classes</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Details</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% classes.forEach(function(classes) { %>
+        <tr>
+            <td>
+                <a href="<%= '/classes/' + classes.id %>">Details</a>
+            </td>
+                <td><%= classes.name %></td>
+        </tr>
+        <% }) %>
+    </tbody>
+</table>
