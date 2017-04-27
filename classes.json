@@ -1,56 +1,56 @@
 [{
         "id": "1",
         "name": "FUNdamentals of JavaScript",
-        "description": "learn JS fundamentals",
+        "description": "Learn JS fundamentals",
         "price": "45",
         "course_length": "1 semester"
     },
     {
         "id": "2",
         "name": "FUNdamentals of C#",
-        "description": "learn C# fundamentals",
+        "description": "Learn C# fundamentals",
         "price": "45",
         "course_length": "1 semester"
     },
     {
         "id": "3",
         "name": "FUNdamentals of HTML",
-        "description": "learn HTML fundamentals",
+        "description": "Learn HTML fundamentals",
         "price": "45",
         "course_length": "1 semester"
     },
     {
         "id": "4",
         "name": "FUNdamentals of Murder",
-        "description": "learn murder fundamentals",
+        "description": "Learn murder fundamentals",
         "price": "45",
         "course_length": "1 semester"
     },
     {
         "id": "5",
         "name": "Advanced JavaScript",
-        "description": "learn JS for reals",
+        "description": "Learn JS for reals",
         "price": "90",
         "course_length": "1 semester"
     },
     {
         "id": "6",
         "name": "Advanced C#",
-        "description": "learn C# for reals",
+        "description": "Learn C# for reals",
         "price": "90",
         "course_length": "1 semester"
     },
     {
         "id": "7",
         "name": "Advanced HTML",
-        "description": "learn HTML for reals",
+        "description": "Learn HTML for reals",
         "price": "90",
         "course_length": "1 semester"
     },
     {
         "id": "8",
         "name": "Advanced Murder",
-        "description": "actually kill someone or you fail",
+        "description": "Actually Kill Someone Or You Fail",
         "price": "0",
         "course_length": "As long as it takes"
     },
@@ -71,7 +71,7 @@
     {
         "id": "11",
         "name": "Math",
-        "description": "learn maths",
+        "description": "Learn Maths",
         "price": "45",
         "course_length": "1 semester"
     },

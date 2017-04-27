@@ -1,30 +1,52 @@
-<header class="nav">
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/classes">Class List</a></li>
-        <li><a href="/contact">Contact Us</a></li>
-    </ul>
-</header>
-<h1>Class Details</h1>
-<% if(eachClass) { %>
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Class Length</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><%= eachClass.name %></td>
-            <td><%= eachClass.description %></td>
-            <td>$<%= eachClass.price %></td>
-            <td><%= eachClass.course_length %></td>
-        </tr>
-        <% } else { %>
-            <h1>ERROR!! ERROR!! Class Not Found</h1>
-        <% } %>
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header class="nav card-panel green lighten-2">
+        <button class="btn left hoverable"><a href="/" class='white-text' >Home</a></button>
+        <button class="btn right hoverable"><a href="/classes" class='white-text' >Class List</a></button>
+        <button class="btn right hoverable"><a href="/contact" class='white-text' >Contact Us</a></button>
+    </header>
+    <h1>Class Details</h1>
+    <% if(eachClass) { %>
+        <table class="centered highlight">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Class Length</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <%= eachClass.name %>
+                    </td>
+                    <td>
+                        <%= eachClass.description %>
+                    </td>
+                    <td>$
+                        <%= eachClass.price %>
+                    </td>
+                    <td>
+                        <%= eachClass.course_length %>
+                    </td>
+                </tr>
+                <% } else { %>
+                    <h1>ERROR!! ERROR!! Class Not Found</h1>
+                    <% } %>
+            </tbody>
+        </table>
+</div>
+</body>
+</html>
